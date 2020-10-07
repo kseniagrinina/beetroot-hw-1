@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html, body {
+    background-color: #fff;   
+    color: #555;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 145%;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url(../img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #ffffff;
+    padding: 20px 0 10px;
+}
+
+.header p {
+    padding: 5px 0;
+}
+
+
+.header {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    line-height: 250%;
+}
+
+#profile-picture {
+    width: 150px;
+    border-radius: 50%;
+    margin: 30px 0 5px;
+}
+
+
+h1,
+h2 {
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.social-link:link,
+.social-link:visited {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 180%;
+    padding: 5px;
+    transition: color 0.2s;
+}
+
+.social-link:hover,
+.social-link:active {
+    color: #989898;
+}
+
+.resume {
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.container {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.box-1 {
+    flex: 1;
+}
+
+.box-2 {
+    flex: 3;
+    text-align: justify;
+}
+
+.box-3 {
+    flex: 3;
+}
+
+ul {
+    list-style: square inside;
+    margin: 0;
+    padding: 0;
+  }
+
+  .course-link:link,
+  .course-link:visited {
+color: #555;
+text-decoration: none;
+font-weight: 400;
+transition: color 0.2s;
+  }
+  
+  .course-link:hover,
+  .course-link:active {
+color: #757575
+  }
